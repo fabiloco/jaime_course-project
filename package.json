@@ -1,0 +1,23 @@
+{
+  "name": "jaime_course-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiloco/jaime_course-project.git"
+  },
+  "author": "Fabian Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiloco/jaime_course-project/issues"
+  },
+  "homepage": "https://github.com/fabiloco/jaime_course-project#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

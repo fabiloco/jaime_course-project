@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Roboto mono", monospace;
+  background-color: #6e6e6e;
+}
+
+.header {
+  background-color: #F6F3EE;
+}
+.header-container {
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.header__items {
+  display: flex;
+  align-items: center;
+}
+.header__item {
+  margin-left: 20px;
+}
+.header__title {
+  font-size: 1.6em;
+  color: #547794;
+}
+.header__courses {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-right: 1px solid #e0e0e0;
+  padding-right: 30px;
+}
+.header__courses i {
+  margin-left: 8px;
+}
+.header__courses:hover {
+  cursor: pointer;
+}
+.header .link {
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */

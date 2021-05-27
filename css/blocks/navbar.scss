@@ -1,0 +1,44 @@
+.header{
+    background-color: $navbar_bg;
+
+    &-container{
+        padding: 10px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    &__items{
+        display: flex;       
+        align-items: center;
+    }
+
+    &__item{
+        margin-left: 20px;
+    }
+
+    &__title{
+        font-size: 1.6em;
+        color: $blue;
+    }
+
+    &__courses{
+        font-size: 1.2em;
+        display: flex;       
+        align-items: center;
+        justify-content: space-around;
+        border-right: 1px solid $grey;
+        padding-right: 30px;
+
+        i{
+            margin-left: 8px;
+        }
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .link{
+        color: black;
+    }
+}
