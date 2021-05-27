@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 .header__item {
-  margin-left: 20px;
+  margin-right: 20px;
 }
 .header__title {
   font-size: 1.6em;
@@ -44,6 +44,125 @@ body {
 }
 .header .link {
   color: black;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  background-color: #c2c9cd;
+}
+
+.presentation-container {
+  height: 70vh;
+}
+
+.presentation {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.presentation h2 {
+  font-size: 2.4em;
+}
+.presentation p {
+  font-size: 1.2em;
+}
+.presentation .info {
+  display: flex;
+}
+.presentation .info-discount {
+  background-color: #e02631;
+  color: white;
+  padding: 4px;
+  border-radius: 6px;
+}
+.presentation .info-stars i {
+  color: #febf2e;
+  margin-right: 4px;
+}
+.presentation .info-stars i:last-of-type {
+  margin-right: 16px;
+}
+.presentation .info-stars p span {
+  color: #6e6e6e;
+}
+.presentation .info-students i {
+  color: #0bd4c1;
+  margin-right: 16px;
+}
+.presentation .info-students p {
+  font-size: 0.9em;
+}
+.presentation .info-date {
+  color: #6e6e6e;
+}
+.presentation .info-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.presentation .author-info__created {
+  margin-bottom: 20px;
+}
+.presentation .author-info__profiles {
+  display: flex;
+}
+.presentation .author-info__profile {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.presentation .author-info__profile img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.presentation .author-info__profile__text-name {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.presentation .author-info__profile__text-info {
+  font-size: 1.1em;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.card__content-price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #e6215d;
+}
+.card__content-price-discount {
+  font-size: 1.6em;
+}
+.card__content-price-no-discount {
+  text-decoration: line-through;
+  color: #6e6e6e;
+  font-weight: lighter;
+}
+.card__content-price-percent {
+  color: black;
+}
+.card__content-price-small {
+  font-size: 1em;
+  font-weight: normal;
+}
+.card-button {
+  background-color: #547794;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

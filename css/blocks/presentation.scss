@@ -1,0 +1,104 @@
+.presentation-container{
+    
+    height: 70vh;
+    //padding-top: 50px ;
+}
+
+.presentation{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    h2{
+        font-size: 2.4em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+
+    .info{
+        display: flex;
+
+        &-discount{
+            background-color: #e02631;
+            color: white;
+            padding: 4px;
+            border-radius: 6px;
+        }
+
+        &-stars{
+            i{
+                color: #febf2e;
+                margin-right: 4px;
+
+                &:last-of-type{
+                    margin-right: 16px;
+                }
+            }
+            p{
+                span{
+                    color: $black_bg;
+                }
+            }
+        }
+
+        &-students{
+            i{
+                color: #0bd4c1;
+                margin-right: 16px;
+            }
+
+            p{
+                font-size: 0.9em;
+            }
+        }
+
+        &-date{
+            color: $black_bg;
+        }
+    }
+
+    .info-item{
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .author-info{
+        &__created{
+            margin-bottom: 20px;
+        }
+
+        &__profiles{
+            display: flex;
+        }
+
+        &__profile{
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+
+            img{
+                width: 70px;
+                height: 70px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin-right: 30px;
+            }
+
+            &__text{
+
+                &-name{
+                    font-size: 1.4em;
+                    font-weight: bold;
+                }
+                &-info{
+                    font-size: 1.1em;
+                }
+            }
+        }
+    }
+}
