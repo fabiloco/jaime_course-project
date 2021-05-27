@@ -130,11 +130,15 @@ body {
   font-size: 1.1em;
 }
 
+.card {
+  background-color: whitesmoke;
+  position: fixed;
+}
 .card__content {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 10px;
+  padding: 20px;
 }
 .card__content-price {
   font-size: 1.2em;
@@ -155,6 +159,7 @@ body {
 .card__content-price-small {
   font-size: 1em;
   font-weight: normal;
+  margin-bottom: 20px;
 }
 .card-button {
   background-color: #547794;
@@ -163,6 +168,20 @@ body {
   padding: 10px;
   margin-bottom: 10px;
   color: white;
+  border: 2px solid #547794;
+  cursor: pointer;
+}
+.card-button-w {
+  background-color: white;
+  color: #547794;
+}
+.card-info__title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+.card-info__item {
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
