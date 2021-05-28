@@ -263,4 +263,45 @@ body {
   margin-bottom: 30px;
 }
 
+.testimonials {
+  width: 45%;
+  margin-left: 200px;
+  padding: 40px;
+  margin-top: 40px;
+}
+.testimonials__title {
+  font-size: 1.4em;
+  margin-bottom: 40px;
+}
+.testimonials-card {
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.testimonials-card__profile {
+  display: flex;
+  align-items: center;
+}
+.testimonials-card__profile img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.testimonials-card__comments {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.testimonials-card__info {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonials-card__info-stars {
+  display: flex;
+}
+.testimonials-card__info-stars i {
+  color: #febf2e;
+}
+
 /*# sourceMappingURL=styles.css.map */
