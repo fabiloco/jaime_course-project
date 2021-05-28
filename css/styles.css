@@ -13,7 +13,7 @@ body {
   background-color: #F6F3EE;
 }
 .header-container {
-  padding: 10px;
+  padding: 20px;
   width: 80%;
   margin: 0 auto;
 }
@@ -132,7 +132,7 @@ body {
   top: 0;
   right: 0;
   margin-right: 100px;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .card__content {
   display: flex;
@@ -191,9 +191,9 @@ body {
 .about {
   width: 45%;
   margin-left: 200px;
-  border: 1px solid #e0e0e0;
   padding: 40px;
   margin-top: 40px;
+  border: 1px solid #e0e0e0;
 }
 .about__title {
   font-size: 1.8em;
@@ -215,6 +215,17 @@ body {
   /* same as padding-left set on li */
   width: 1.3em;
   /* same as padding-left set on li */
+}
+
+.text {
+  width: 45%;
+  margin-left: 200px;
+  padding: 40px;
+  margin-top: 40px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.text h2 {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

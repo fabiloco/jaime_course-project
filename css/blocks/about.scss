@@ -5,9 +5,10 @@
 .about{
     width: 45%;
     margin-left: 200px;
-    border: 1px solid $grey;
     padding: 40px;
     margin-top: 40px;
+
+    border: 1px solid $grey;
 
     &__title{
         font-size: 1.8em;
