@@ -9,7 +9,10 @@
     //background-color: red;
     background-color: whitesmoke;
     position: fixed;
-    //top: 0;
+    top: 0;
+    right: 0;
+    margin-right: 100px;
+    margin-top: 50px;
 
     &__content{
         display: flex;

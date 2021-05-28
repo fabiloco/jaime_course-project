@@ -1,13 +1,14 @@
 .presentation-container{
-    
+    background-color: $presentation_bg;
     height: 70vh;
     //padding-top: 50px ;
 }
 
 .presentation{
     height: 100%;
-    width: 80%;
-    margin: 0 auto;
+    width: 50%;
+    margin-left: 200px;
+    margin-right: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
