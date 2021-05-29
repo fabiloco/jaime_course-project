@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,11 @@
 }
 
 body {
-  font-family: "Roboto mono", monospace;
+  font-family: "Nunito", "Roboto mono", monospace;
+}
+
+.fa-star {
+  color: #febf2e;
 }
 
 .header {
@@ -27,6 +32,7 @@ body {
 .header__title {
   font-size: 1.6em;
   color: #547794;
+  font-weight: 700;
 }
 .header__courses {
   font-size: 1.2em;
@@ -127,8 +133,8 @@ body {
 }
 
 .card-container {
-  width: 380px;
-  height: 300vh;
+  width: 480px;
+  height: 325vh;
   position: absolute;
   right: 90px;
   top: 70px;
@@ -137,7 +143,7 @@ body {
 .card {
   background-color: whitesmoke;
   position: sticky;
-  top: -364px;
+  top: -444px;
   display: block;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
@@ -150,8 +156,8 @@ body {
   position: relative;
 }
 .card-imgs .img-container .img img {
-  width: 380px;
-  height: 180px;
+  width: 480px;
+  height: 220px;
   object-fit: cover;
   filter: brightness(0.5);
 }
@@ -302,6 +308,38 @@ body {
 }
 .testimonials-card__info-stars i {
   color: #febf2e;
+}
+
+.ratings {
+  width: 45%;
+  margin-left: 200px;
+  padding: 40px;
+}
+.ratings__title {
+  font-size: 1.4em;
+}
+.ratings__commentary {
+  padding-top: 40px;
+}
+.ratings__commentary .commentary__user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.ratings__commentary .commentary__user p {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.ratings__commentary .commentary__user-img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.ratings__commentary .commentary__user-text {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 /*# sourceMappingURL=styles.css.map */
