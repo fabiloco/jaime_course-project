@@ -364,4 +364,14 @@ body {
   border-bottom: 1px solid #e0e0e0;
 }
 
+.footer-container {
+  background-color: #c2c9cd;
+}
+.footer-container .footer {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
