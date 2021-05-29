@@ -173,14 +173,15 @@ body {
   color: whitesmoke;
   text-align: center;
   z-index: 500;
+  cursor: pointer;
 }
 .card-imgs .img-container .img-play1 {
   top: 92px;
-  left: 40%;
+  left: 42%;
 }
 .card-imgs .img-container .img-play2 {
   top: 316px;
-  left: 40%;
+  left: 42%;
 }
 .card__content {
   display: flex;
