@@ -9,7 +9,7 @@
     margin-top: 40px;
 
     &__title{
-        font-size: 1.4em;
+        font-size: 1.5em;
         margin-bottom: 40px;
     }
 
@@ -17,6 +17,11 @@
         background-color: $grey;
         padding: 20px;
         margin-bottom: 20px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+        box-shadow:  2px 2px 10px #bebebe,
+             -2px -2px 10px #ffffff;
 
         &__profile{
             display: flex;
@@ -42,9 +47,10 @@
 
             &-stars{
                 display: flex;
-
+                align-items: center;
                 i{
                     color: $yellow;
+                    margin-left: 10px;
                 }
             }           
         }
